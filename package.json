@@ -1,0 +1,19 @@
+{
+  "name": "phaser-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -w & PIDIOS=$! && lite-server & PIDMIX=$! && wait $PIDIOS && wait $PIDMIX",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "exec": "^0.2.1",
+    "systemjs": "^0.19.37"
+  },
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  }
+}
